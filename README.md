@@ -47,7 +47,7 @@ in the backend folder
 - Response body:
 ```json
 {
-  "success": True,
+  "success": true,
   "categories": {
     "1": "Science",
     "2": "Art",
@@ -68,7 +68,7 @@ in the backend folder
 
 ```json
 {
-  "success": True,
+  "success": true,
   "questions": [
     {
       "id": 1,
@@ -100,7 +100,7 @@ in the backend folder
 
 ```json
 {
-  "success": True,
+  "success": true,
   "questions": [
     {
       "id": 1,
@@ -123,7 +123,7 @@ in the backend folder
 - Response body: 
 ```json
 {
-  "success": True
+  "success": true
 }
 ```
 
@@ -135,8 +135,8 @@ in the backend folder
 
 ```json
 {
-    'previous_questions': [1, 4, 20, 15],
-    quiz_category': 'int_current_category'
+    "previous_questions": [1, 4, 20, 15],
+    "quiz_category": "int_current_category"
  }
 ```
 
@@ -144,7 +144,7 @@ in the backend folder
 
 ```json
 {
-  "success": True,
+  "success": true,
   "question": {
     "id": 19,
     "question": "This is a question",
@@ -172,7 +172,7 @@ in the backend folder
 - Returns: 
 ```json
 {
-    "success": True
+    "success": true
 }
 ```
 ---
